@@ -1,6 +1,6 @@
 # Můj blockchain
 
-Tohle je takovej můj pokus o vlastní blockchain s REST API přes Flask. Je to úplný základ – třída na chain a pár API, aby se s tím dalo pracovat.
+Tohle je takový můj pokus o vlastní blockchain s REST API přes Flask. Je to úplný základ – třída na chain a pár API, aby se s tím dalo pracovat.
 
 ## Obsah
 - [Co tu najdete](#co-tu-najdete)
