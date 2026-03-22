@@ -1,26 +1,26 @@
-# Můj první Blockchain
+# Můj blockchain
 
-Vítejte v mém repozitáři! Zde najdete ukázku jednoduchého blockchainu s REST API, který využívá framework Flask.
+Tohle je takovej můj pokus o vlastní blockchain s REST API přes Flask. Je to úplný základ – třída na chain a pár API, aby se s tím dalo pracovat.
 
 ## Obsah
-- [O projektu](#o-projektu)
-- [Jak to spustit](#jak-to-spustit)
-- [Struktura API](#struktura-api)
+- [Co tu najdete](#co-tu-najdete)
+- [Spuštění](#spuštění)
+- [Endpointy](#endpointy)
 - [Závěr](#závěr)
 
-## O projektu
-Tento projekt je ukázkou toho, jak funguje distribuovaná účetní kniha. Obsahuje třídu pro samotný blockchain a několik endpointů pro komunikaci se sítí.
+## Co tu najdete
+Prostě jsem si chtěl zkusit napsat vlastní blockchain v Pythonu a pochopit, jak to pod kapotou funguje. 
 
-## Jak to spustit
-1. Ujistěte se, že máte nainstalovaný Python.
-2. Nainstalujte potřebnou knihovnu pomocí příkazu: `pip install flask`
-3. Spusťte hlavní soubor: `python blockchain.py`
+## Spuštění
+1. Musíš mít nainstalovaný Python
+2. Stáhni si Flask: `pip install flask`
+3. Spusť to: `python blockchain.py`
 
-## Struktura API
-Aplikace má připravené tyto základní cesty k vyzkoušení:
-* `/mine` (GET) - Slouží k vytěžení nového bloku.
-* `/transactions/new` (POST) - Slouží k přidání nové transakce.
-* `/chain` (GET) - Vrátí celý aktuální řetězec bloků.
+## Endpointy
+Můžete si zkusit tyto cesty:
+* `/mine` (GET) - vytěží to nový blok
+* `/transactions/new` (POST) - přidá to novou transakci
+* `/chain` (GET) - vypíše to celý aktuální chain
 
 ## Závěr
 Tento kód je sestrojen vlastnoruční prací a pokud najdete nějaké chyby, budu rád za feedback!
